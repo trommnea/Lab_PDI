@@ -8,7 +8,8 @@ public class Car extends Vehicle {
 		this.num_door=0;
 	}
 	
-	Car(int num_door){
+	Car(String brand,int year, int num_door){
+		super(brand,year);
 		this.num_door=num_door;
 	}
 	
